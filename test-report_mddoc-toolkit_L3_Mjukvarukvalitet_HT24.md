@@ -1,4 +1,4 @@
-# Test Report
+# Test Report - mddoc-toolkit library
 
 - Project: Mjukvarukvalitet L3
 - Date: 2024-10-24
