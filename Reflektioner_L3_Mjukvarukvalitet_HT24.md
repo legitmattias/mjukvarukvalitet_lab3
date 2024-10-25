@@ -134,7 +134,7 @@ async fetchGithubDocument(repo: string, path: string): Promise<string> {
 ```
 
 #### Kapitel 9: Enhetstester
-Jag har lagt stor vikt vid att skapa omfattande enhetstester för både `RepoReadmeProcessor` och `MarkdownParser`. Genom att testa olika användningsfall och edge cases kan jag vara säker på att kodbasen är robust. Enhetstesterna bidrar till att upprätthålla kodens kvalitet och stabilitet.
+Jag har lagt stor vikt vid att skapa enhetstester för samtliga klasser i mddoc-toolkit. Jag har försökt se till att testa olika användningsfall och edge cases för att säkerställa att att modulen fungerar bra även vid refaktoreringar. Enhetstesterna bidrar till att upprätthålla kodens kvalitet och stabilitet. Det är också mycket enklare att göra förändringar i koden när man vet att man snabbt kan verifiera att inget har gått sönder. När det kommer till applikationen har jag istället valt att fokusera på att skapa integrationstester för att testa hela flödet från användarens perspektiv.
 
 ```typescript
 test("should extract installation instructions", () => {
